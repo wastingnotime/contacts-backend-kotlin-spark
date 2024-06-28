@@ -1,4 +1,4 @@
-package com.henriquericcio
+package org.wastingnotime
 
 import com.google.gson.Gson
 import spark.Spark.*

@@ -3,12 +3,12 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.henriquericcio</groupId>
+    <groupId>org.wastingnotime</groupId>
     <artifactId>contacts-backend-kotlin-spark</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>com.henriquericcio contacts-backend-kotlin-spark</name>
+    <name>org.wastingnotime contacts-backend-kotlin-spark</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -98,7 +98,7 @@
                             </descriptorRefs>
                             <archive>
                                 <manifest>
-                                    <mainClass>com.henriquericcio.MainKt</mainClass>
+                                    <mainClass>org.wastingnotime.MainKt</mainClass>
                                 </manifest>
                             </archive>
                         </configuration>
