@@ -5,7 +5,10 @@
 ## stack
 * openjdk 17
 * kotlin
-* spark
+* [sparkjava](https://sparkjava.com/) 
+
+## features
+* simulated database (in memory collection)
 
 
 ## get started (linux only)
