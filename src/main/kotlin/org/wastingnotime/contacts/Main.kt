@@ -1,4 +1,4 @@
-package org.wastingnotime
+package org.wastingnotime.contacts
 
 import com.google.gson.Gson
 import spark.Spark.*
