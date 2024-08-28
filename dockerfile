@@ -1,4 +1,4 @@
-FROM maven:3.8.1-openjdk-17-slim
+FROM maven:3.8.7-openjdk-18-slim
 
 COPY ./pom.xml ./pom.xml
 RUN mvn dependency:go-offline -B
@@ -6,7 +6,7 @@ RUN mvn dependency:go-offline -B
 COPY ./src ./src
 RUN mvn package
 
-FROM openjdk:17-alpine
+FROM openjdk:18-alpine
 
 COPY --from=0 ./target/app-jar-with-dependencies.jar app.jar
 
