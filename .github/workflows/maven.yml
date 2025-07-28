@@ -6,7 +6,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Java CI with Maven
+name: java ci with maven
 
 on:
   push:
@@ -23,6 +23,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+      # todo: migrates to 21 LTS
     - name: Set up JDK 17
       uses: actions/setup-java@v3
       with:

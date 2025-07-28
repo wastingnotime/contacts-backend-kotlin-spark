@@ -1,0 +1,20 @@
+# ide's
+.vscode
+.idea
+
+# docker
+dockerfile
+.dockerignore
+
+# git
+.git
+.gitignore
+.github
+
+# jvm stuff
+target
+
+
+# misc
+readme.md
+LICENSE
